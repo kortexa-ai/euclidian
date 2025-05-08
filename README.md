@@ -1,14 +1,41 @@
-App created! To get started run:
-  cd euclidian
-  npm install
-  npm run tauri android init
-  npm run tauri ios init
+## Euclidian
 
-For Desktop development, run:
-  npm run tauri dev
+Euclidian is the space for your shapes on desktop and mobile.
 
-For Android development, run:
-  npm run tauri android dev
+### Prerequisites
 
-For iOS development, run:
-  npm run tauri ios dev
+- [Tauri](https://v2.tauri.app/start/prerequisites/)
+- Rust
+- Node.js
+- Xcode
+- Android Studio
+
+### More platforms
+
+```bash
+npm run tauri android init
+```
+
+### Development
+
+Desktop development
+```bash
+npm run tauri dev
+```
+
+Android development
+```bash
+npm run tauri android dev
+```
+
+iOS development
+```bash
+npm run tauri ios dev
+```
+
+### Distribution
+
+OS X DMG
+```bash
+npm run tauri build -- --bundles dmg
+```

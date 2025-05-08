@@ -1,0 +1,11 @@
+### Branding
+
+Name: Euclidian
+Tagline: Space for your shapes
+
+Background - #3F51B5
+Gradient - 135 deg, #3F51B5, #FF5722
+Drop shadow, 15% padding
+Font - ADLaM Display
+
+[Icon Kitchen](https://icon.kitchen/i/H4sIAAAAAAAAA1WRQU%2FDMAyF%2F8pkruOwjQLqDdjgsklI2w1xcBMnjZY2VZIWVdP%2BO06qVdBDG39%2Ben5xLzCg7SlAeQGJ%2FnyqqSEoFdpAS1D6NHZcgmlQEyyh0m%2FOOs%2Fkrtg8SjWxY41ZJYwXNiGljwKtaXWC1EbyGR4wnP94z1bPldg8YJbslCIROQ6QpQHj5PaJUma3C0TXQbkqluCNruN0rFyMrpnOllSmV8YoNc1DNqpYVQXbxXRFOefIKhZUFFOE6nZl7VEazp7Zx63gBCI5rv5ZZrROSKniab1mhK3mVZSbnKQLr2kV3E0Pd7twMjH1YdcLa6TBdqKoeW2JHzsUtFDOL0bX%2B0VIKw5Z856t5tkM3BRMYWPsyM2X7R4Pi60JncUR8vw9sg2roE5142Rv00%2F%2FAuOS6w9V%2FG5QTBVGUedTHPIHW%2BmdkXFI89jzPkTnCb6vvyHqGXc%2FAgAA)
