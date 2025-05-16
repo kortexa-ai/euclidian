@@ -37,5 +37,5 @@ npm run tauri ios dev
 
 OS X DMG
 ```bash
-npm run tauri build -- --bundles dmg
+npm run package
 ```

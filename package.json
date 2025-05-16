@@ -24,7 +24,8 @@
         "preview": "vite preview",
         "tauri": "tauri",
         "osx": "tauri dev",
-        "ios": "tauri ios dev"
+        "ios": "tauri ios dev",
+        "package": "npm run tauri build -- --target aarch64-apple-darwin --bundles dmg"
     },
     "dependencies": {
         "@icons-pack/react-simple-icons": "^12.7.0",

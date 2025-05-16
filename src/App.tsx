@@ -4,7 +4,8 @@ import { OpenAI } from "openai";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
+// import gradient from "@/assets/gradient.png";
+import banner from "@/assets/banner.png";
 
 interface ChatMessage {
   id: number;
@@ -65,25 +66,18 @@ export function App() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
-      <Card className="w-full max-w-md shadow-lg flex flex-col h-[500px]">
+    <main className="min-h-screen flex items-stretch justify-stretch bg-gray-100">
+      <Card className="w-full h-full max-h-full shadow-lg flex flex-col bg-white m-4">
         <CardHeader className="text-center">
-          <CardTitle className="text-2xl font-bold text-gray-900">
-            Euclidian Chat
+          <CardTitle>
+            <div className="flex justify-center">
+              <a href="https://shapes.inc" target="_blank" rel="noopener noreferrer">
+                <img src={banner} alt="Shapes Inc logo" />
+              </a>
+            </div>
           </CardTitle>
         </CardHeader>
         <CardContent className="flex-1 flex flex-col gap-4 overflow-hidden">
-          <div className="flex justify-center">
-            <a href="https://shapes.inc" target="_blank" rel="noopener noreferrer">
-              <Avatar className="w-16 h-16">
-                <AvatarImage
-                  src="/shapes_inc.png"
-                  alt="Shapes Inc logo"
-                  className="object-contain"
-                />
-              </Avatar>
-            </a>
-          </div>
           <div className="flex-1 overflow-y-auto space-y-2 px-2">
             {messages.map((msg) => (
               <div
